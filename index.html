@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!-- This tells about the version of the HTML you're working on i.e., HTML 5 -->
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- The meta elements give extra metadata or associated data to your HTML document -->
+    <title>Aditya's Personal Site</title>
+</head>
+<body>
+    <!--This is a nested table consisting of one row only and two data cells(table cells)...
+        first data cell contains the image and the second data cell consists of the text beside it-->
+    <table cellspacing="20">
+        <tr>
+            <td><img src="https://media-exp1.licdn.com/dms/image/C4D03AQGuzym9ubABNg/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=UnGFrj9tzcltxhnsGjkHkwpgSEyfG0xAoxeBSsa0quw" alt=""></td>
+            <td><h1>Aditya Meshram</h1>  
+                <p><em>Senior year engineer, Currently studying at MIT World Peace University.</em></p> 
+                <p>I am an amateur Web Developer and coder. I 💜 coffee and reading books.</p> </td>
+        </tr>
+    </table>
+    
+    
+    <hr>
+    <h3>Education</h3>
+    <!-- ul: unordered list; li: list items; ol: ordered list --> 
+    <ul>
+        <li><b>Middle School</b>: Ryan International School, CBSE, Malad(W)</li>
+        <li><b>High School</b>: <a href="https://en.wikipedia.org/wiki/Rajhans_Vidyalaya">Rajhans Viydalaya, Andheri(W)</a></li>
+        <li><b>Graduation</b>: <a href="https://www.mitwpu.edu.in">MIT World Peace University, Pune</a></li>
+    </ul>
+    <hr>
+
+    <!-- Now we're going to create a table. A table consists of a table head, table body and table footer(optional).
+        <thead>: table head: Contains the heading of the columns eg. Name, roll nos. etc.
+        <tbody>: table body: Contains the rows of the table
+        <tr>: table row: Actual row of the table.
+        <td>: table data or table cell: individual cell of the table.
+        <table cellspacing>:This attribute defines the size of the space between two cells in a percentage value or pixels. 
+    --> 
+
+    <h3>Projects</h3>
+    <table border="0" cellspacing="10">
+        <thead>
+            <tr align=middle>
+                <th>S.No.</th>
+                <th>Name</th>
+                <th>Languages Used</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="middle">
+                <td>1</td>
+                <td>Tic Tac Toe game</td>
+                <td>Python</td>
+                <td>2020</td>
+            </tr>
+            <tr align="middle">
+                <td>2</td>
+                <td>Blackjack game</td>
+                <td>Python</td>
+                <td>2020</td>
+            </tr>
+            <tr align="middle">
+                <td>3</td>
+                <td>Hospital Management System</td>
+                <td>Python, SQL</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!--NESTED TABLES...SAME AS THE FIRST PART...HERE THIS TABLE CONSISTS
+        OF ONLY ONE ROW AND TWO TABLE CELLS....BUT EACH CELL ITSELF CONTAINS A TABLE OF TWO ROWS -->
+
+    <h3>Skills</h3>
+    <table border=0 cellspacing=10>
+        <tr>                                    <!--First and only row of the outer table-->
+            <td>                                    <!--First cell of the outer table-->
+                <table>                                 <!--Nested table of first cell begins-->
+                    <tr>                                        <!--First row of nested table-->     
+                        <td>Python</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>                                         <!--Second row of nested table--> 
+                        <td>HTML</td>
+                        <td>⭐</td>
+                    </tr>
+                    <tr>                                            <!--Third row of nested table--> 
+                        <td>C++</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>                                        <!--Second cell of the outer table-->
+                <table>                                         <!--Nested table of second cell begins-->
+                    <tr>                                                <!--First row of nested table-->
+                        <td>C</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>                                                <!--Second row of nested table-->
+                        <td>SQL</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>                                                <!--Third row of nested table-->
+                        <td>CSS</td>
+                        <td>⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <a href="hobbies.html"><h4>My Hobbies</h4></a>
+    <hr>
+    <a href="contact.html"><h4>Contact me!</h4></a>
+    <hr>
+    
+    
+
+</body>
+</html>
